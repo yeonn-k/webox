@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "new folder",
+    "iconUrl": "./images/add_grey.png",
+    "alt": "addIcon"
+  },
+  {
+    "id": 2,
+    "name": "upload files",
+    "iconUrl": "./images/add_grey.png",
+    "alt": "addIcon"
+  },
+  {
+    "id": 3,
+    "name": "delete files",
+    "iconUrl": "./images/minusBox_grey.png",
+    "alt": "minusIcon"
+  }
+]

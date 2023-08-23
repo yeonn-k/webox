@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "내가 좋아하는 사진",
+    "liked": true
+  },
+  {
+    "id": 2,
+    "name": "체코 프라하",
+    "liked": false
+  },
+  {
+    "id": 3,
+    "name": "제주도",
+    "liked": false
+  },
+  {
+    "id": 4,
+    "name": "도쿄",
+    "liked": false
+  },
+  {
+    "id": 5,
+    "name": "세부",
+    "liked": false
+  }
+]
