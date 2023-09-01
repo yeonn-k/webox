@@ -1,12 +1,16 @@
 import React from "react";
+
 import SideBar from "./components/SideBar/SideBar.tsx";
 import TopOfAlbum from "./components/TopOfAlbum/TopOfAlubm.tsx";
+import InviteModal from "../../Components/InviteModal/InviteModal.tsx";
 
 import { S } from "./Album";
 
 const Album = () => {
   return (
     <S.Album>
+      <InviteModal />
+
       <SideBar />
       <S.ExceptSide>
         <TopOfAlbum />
