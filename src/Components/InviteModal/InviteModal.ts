@@ -14,6 +14,7 @@ export const S = {
     width: 996px;
     height: 680px;
     border: 1px solid ${(props) => props.theme.lightBlue};
+    border-radius: 5px;
   `,
   InviteInputBox: styled.div`
     display: flex;
