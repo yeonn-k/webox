@@ -11,7 +11,7 @@ import { S } from "./Album";
 const Album = () => {
   return (
     <S.Album>
-      <CapacityLimitModal />
+      {/* <CapacityLimitModal /> */}
 
       <SideBar />
       <S.ExceptSide>
