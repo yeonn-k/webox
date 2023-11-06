@@ -11,7 +11,7 @@ const Router = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/album" element={<Album />} />
-          <Route path="/createAlbum" element={<CreateAlbum />} />
+          <Route path="/create-album" element={<CreateAlbum />} />
         </Routes>
       </BrowserRouter>
     </>

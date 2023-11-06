@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 
 import { S } from "./CreateAlbum";
 import Description from "./Components/Description.tsx";
+import ImageCarousel from "./Components/ImageCarousel.tsx";
 
 const CreateAlbum = () => {
   const [descriptions, setDescriptions] = useState<
@@ -20,24 +21,25 @@ const CreateAlbum = () => {
 
   return (
     <S.CreateAlbum>
-      <S.ImageCarousel></S.ImageCarousel>
-      <S.AlbumDescription></S.AlbumDescription>
-      <S.Folder>
-        <S.FolderIcon />
-        <S.FolderName></S.FolderName>
-      </S.Folder>
+      <ImageCarousel />
+      <S.AlbumDescription>
+        <S.Folder>
+          <S.FolderIcon />
+          <S.FolderName>new</S.FolderName>
+        </S.Folder>
 
-      <S.Descriptions>
-        {descriptions.map((description) => (
-          <Description
-            key={description.id}
-            title={description.title}
-            placeholder={description.placeholder}
-          />
-        ))}
-      </S.Descriptions>
+        <S.Descriptions>
+          {descriptions.map((description) => (
+            <Description
+              key={description.id}
+              title={description.title}
+              placeholder={description.placeholder}
+            />
+          ))}
+        </S.Descriptions>
 
-      <S.CreateBtn>확인</S.CreateBtn>
+        <S.CreateBtn>확인</S.CreateBtn>
+      </S.AlbumDescription>
     </S.CreateAlbum>
   );
 };
